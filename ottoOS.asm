@@ -65,10 +65,10 @@ ret
 grey:
 mov bl, 0x0007
 ret 
-load: db 'Loading Compello OS',10,13,0
+load: db 'Loading DocZ OS',10,13,0
 loading: db '.................................',10,13,0
 complete: db 'COMPLETE - LOADED OK!',0
-version: db 'Compello OS v. 1.3.3.7 (build 7.3.3.1)',10,13,0
+version: db 'DocZ OS v. 1.3.3.7 (build 7.3.3.1)',10,13,0
 credits: db 'Written by Otto',10,13,0    
 blank: db 0
 prompt: db 'COS> ',10,13,0
